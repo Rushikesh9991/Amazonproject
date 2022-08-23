@@ -29,7 +29,7 @@ driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		
 		lp.clickonsignin();
 		
-		lp.usernamee("8237312068");
+		lp.usernamee("rsonawane702@gmail.com");
 		lp.continuebutton();
 		Passwordfield psw=new Passwordfield(driver);
 		psw.enterpassword("Rushi@123");

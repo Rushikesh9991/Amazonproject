@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazonproject.Loginpagetest">
+      <class name="amazonproject.Placeorder">
         <methods>
           <include name="openbrowser"/>
+          <include name="placeorder"/>
+          <include name="openamazonwebpage"/>
         </methods>
-      </class> <!-- amazonproject.Loginpagetest -->
+      </class> <!-- amazonproject.Placeorder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
